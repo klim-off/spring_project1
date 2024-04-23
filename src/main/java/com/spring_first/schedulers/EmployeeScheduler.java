@@ -20,5 +20,6 @@ public class EmployeeScheduler {
         log.info("Creating employee scheduled task");
         var employee = new Employee("Sem", "Dwer", LocalDate.now());
         employeeRepository.save(employee);
+        log.info("Created employee scheduled task");
     }
 }
